@@ -1,32 +1,101 @@
 ![Deployement of book](../../actions/workflows/deploy-book.yml/badge.svg) 
 [Link to Cores2Code Jupyter-book](https://cascadiaquakes.github.io/cores2code/)
 
-# jupyter-book-template
+# cores2code
 
-This repository is aimed to be a template/example to follow on how to make a jupyter-book for CRESCENT with the available resources such as logo
+Welcome to the **cores2code** repository, the digital companion for the final week of the **Cores to Code (C2C)** summer research program. This repository contains instructional materials, datasets, and exercises designed to introduce undergraduate geoscience students to coding and data analysis using Python.
 
-Requirements are:
-- jupyter-book package  
-- matplotlib  
-- numpy
-Then you will need the different packages for your own notebooks.
+---
 
-Compile: 
-jupyter-book build mybookname/   (replace "mybookname" with the path to the folder containing the _config.yml file)
+## 🧭 About the Program
 
-open the _build/html/index.html
+**Cores to Code** is a three-week immersive summer experience hosted by CRESCENT (the Cascadia Region Earthquake Science Center). The program trains students in subduction zone science through:
 
-More documentation on jupyter-book  
-https://jupyterbook.org/en/stable/intro.html
+- Week 1: **Fieldwork** – Collecting sediment cores from coastal sites
+- Week 2: **Lab Analysis** – Stratigraphy, microfossil work, and core interpretation
+- Week 3: **Data & Code** – Learning to work with and interpret geologic data using Python (this repo)
 
-# How to use this template
+---
 
-1. You should use this template to help you get started with jupyter-book. When creating a new repository, create it from template and select this one
-2. Change this readme to reflect what your project actually is
-3. In the readme, change the links of the build icon as well as the link to the deployed book
-4. The _toc.yml is the table of content, this is where you define the structure of the book (sections, chapters etc...) More informations: https://jupyterbook.org/en/stable/structure/toc.html
-5. The _config.yml should require minimal modifications: title, author. More information: https://jupyterbook.org/en/stable/customize/config.html
-6. The notebook folder currently contains simple notebooks example, replace it by yours.
-7. In the root folder, you have the intro.md and conclusion.md, modify this to fit your project
-8. In the conclusion.md, there is an example on how to use reference and add the bibliography from the .bib file. more documentation: https://jupyterbook.org/en/stable/content/citations.html 
-9. If you are using specific library and you want people to easily be able to run your notebooks, feel free to add packages to the requirement.txt. Currently the execution of the notebooks is blocked in the book, even at the compilation this is not needed to add all packages in it if the notebook are for demo purposes only and not meant to be used. Keep the requirements.txt in the root folder with at least jupyter-book for the automatic deployment.
+## 👩‍💻 Week 3 Learning Objectives
+
+During this final week, students transition from physical samples to digital analysis. You'll gain experience in:
+
+- Writing and executing basic Python code
+- Loading and cleaning datasets (e.g., from field or lab work)
+- Creating figures using `matplotlib` and `plotly`
+- Performing simple statistical summaries
+- Documenting workflows with Jupyter Notebooks
+
+These skills help bridge traditional geoscience methods with modern computational tools.
+
+---
+
+## 📁 Repository Structure
+
+```bash
+cores2code/
+├── notebooks/          # Jupyter notebooks for guided instruction
+│   ├── 01_intro_to_python.ipynb
+│   ├── 02_data_handling.ipynb
+│   ├── 03_plotting_basics.ipynb
+│   └── 04_mini_project_template.ipynb
+├── data/               # Example datasets (CSV or similar formats)
+│   └── sample_cores.csv
+├── exercises/          # Hands-on practice notebooks
+│   └── 01_data_cleaning_challenge.ipynb
+├── requirements.txt    # Python dependencies
+└── README.md           # This file
+```
+
+---
+
+## 🚀 Getting Started
+
+1. **Install Anaconda** (recommended):  
+   [https://www.anaconda.com/products/distribution](https://www.anaconda.com/products/distribution)
+
+2. **Launch Jupyter Lab**:
+   ```bash
+   jupyter lab
+   ```
+
+3. **Install required packages** (if not already installed):
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Start with the first notebook**:  
+   Open `notebooks/01_intro_to_python.ipynb` and follow along.
+
+---
+
+## 🧰 Tools You'll Use
+
+- **Python** – for scripting and analysis
+- **Jupyter Notebooks** – for interactive code + narrative
+- **NumPy** – for working with arrays and math
+- **Pandas** – for data wrangling
+- **Matplotlib / Plotly** – for data visualization
+
+---
+
+## 🎓 Attribution & Support
+
+This repository is maintained by instructors and TAs from the **CRESCENT** , with contributions from:
+- Cal Poly Humboldt
+- University of Oregon
+- Virginia Tech
+- UNC Wilmington
+
+Contact your instructor or TA if you get stuck or want to go further!
+
+---
+
+## 📢 Final Notes
+
+This is not about becoming a software engineer—it's about learning how basic coding can help you be a better geoscientist. You'll be analyzing real data, automating repetitive tasks, and visualizing findings. Be curious, experiment, and don’t be afraid to break things (and then fix them)!
+
+Happy coding!
+
+— The C2C Teaching Team
