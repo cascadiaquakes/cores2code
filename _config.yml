@@ -2,7 +2,7 @@
 # Learn more at https://jupyterbook.org/customize/config.html
 
 title: Cores to Code Jupyter-book
-author: Loïc Bachelot
+author: Diego Melgar, Valerie J. Sahakian, Susheel Adusumilli, Loïc Bachelot, and Shannon Fasola
 logo: Crescent_logo.png
 
 # Force re-execution of notebooks on each build.
