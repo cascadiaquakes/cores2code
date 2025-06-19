@@ -39,7 +39,7 @@ The figure below shows an example of several earthquake rupture models — all o
 
 ![INSERT FIGURE HERE — Example rupture models from Melgar et al. (2022)](figures/ruptures.png)
 
-Each model predicts a different pattern of vertical land motion along the coast. The key question is: **which of these patterns are consistent with the geologic evidence?**
+Each model predicts a different pattern of vertical land motion along the coast. Some models have slip that extends deep inland, while others do not. Some show slip reaching all the way to the trench, and others stop short offshore. The key question is: **which of these patterns are consistent with the geologic evidence?**
 
 For example, paleoseismic studies of the 1700 Cascadia earthquake show that many coastal marshes subsided by as much as a meter. We’ll use Python to:
 - Visualize these rupture models
