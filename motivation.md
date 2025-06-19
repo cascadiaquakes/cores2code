@@ -35,9 +35,9 @@ That’s what this capstone exercise is all about.
 
 ## The Research Question
 
-The figure below shows an example of several earthquake rupture models — each simulating different assumptions about where and how slip occurs along the fault.
+The figure below shows an example of several earthquake rupture models — all of simialr magntiudes (ish?) each simulating different assumptions about where and how slip occurs along the fault.
 
-![INSERT FIGURE HERE — Example rupture models from Melgar et al. (2022)](figures/example_ruptures.png)
+![INSERT FIGURE HERE — Example rupture models from Melgar et al. (2022)](figures/ruptures.png)
 
 Each model predicts a different pattern of vertical land motion along the coast. The key question is: **which of these patterns are consistent with the geologic evidence?**
 
@@ -59,6 +59,8 @@ At the end of the book, your capstone exercise will involve:
 
 ## Why This Matters
 
-These kinds of analyses aren’t just academic — they inform hazard maps, building codes, and emergency planning. Understanding which rupture scenarios are realistic helps communities prepare for future earthquakes.
+These kinds of analyses aren’t just academic — they inform hazard maps, building codes, and emergency planning. But for models to be truly useful, we must always find ways to check their predictions against real data. This is at the heart of scientific progress.
 
-This module is a first step toward doing that kind of impactful science. Let's dive in.
+As philosopher Karl Popper emphasized, the power of a scientific theory lies in its "testability" — the idea that a theory must make predictions that can be checked against observations. If a model or theory can't be tested, it isn't really a scientific theory at all. By comparing model outputs to geologic evidence, we’re not just learning Python — we’re practicing the essential art of science: confronting ideas with reality.
+
+This module is a first step toward doing that kind of impactful, testable science. Let's dive in.
