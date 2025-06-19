@@ -5,7 +5,7 @@ format: jb-book
 root: intro
 chapters:
 - file: motivation.md
-- file: notebooks/1_first_nb
-- file: notebooks/2_second_nb
-- file: notebooks/3_third_nb
+- file: notebooks/01_pythonbasics.ipynb
+- file: notebooks/02_pythoncont_arrayslists.ipynb
+- file: notebooks/03_pythonalgorithms.ipynb
 - file: conclusion.md
