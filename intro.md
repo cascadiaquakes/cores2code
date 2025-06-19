@@ -46,7 +46,7 @@ If you're new to coding, don’t worry—everything starts from the basics!
 
 ## 👩‍🔬 Who Is This For?
 
-This book is intended for undergraduate students in Earth Sciences with little or no prior coding experience. All examples are grounded in real data collected during the program, making your learning experience as relevant and hands-on as possible.
+This book is intended for undergraduate students in Earth Sciences with little or no prior coding experience. The capstone example is grounded in real data collected during the program, making your learning experience as relevant and hands-on as possible.
 
 ---
 
