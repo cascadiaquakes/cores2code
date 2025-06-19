@@ -8,4 +8,11 @@ chapters:
 - file: notebooks/01_pythonbasics.ipynb
 - file: notebooks/02_pythoncont_arrayslists.ipynb
 - file: notebooks/03_pythonalgorithms.ipynb
+- file: notebooks/04_peasantmultiplication.ipynb
+- file: notebooks/05_leastsquares.ipynb
+- file: notebooks/06_primenumbertest.ipynb
+- file: notebooks/07_Arrayslicing.ipynb
+- file: notebooks/08_DataIO.ipynb
+- file: notebooks/09_putting_it_together_1.ipynb
+- file: notebooks/10_putting_it_together_2.ipynb
 - file: conclusion.md
