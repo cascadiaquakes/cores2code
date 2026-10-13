@@ -1,13 +1,16 @@
-![Deployement of book](../../actions/workflows/deploy-book.yml/badge.svg) 
-[Link to Cores2Code Jupyter-book](https://cascadiaquakes.github.io/cores2code/)
-
 # cores2code
+
+[![License: BSD-3-Clause](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](LICENSE)
 
 Welcome to the **cores2code** repository, the digital companion for the final week of the **Cores to Code (C2C)** summer research program. This repository contains instructional materials, datasets, and exercises designed to introduce undergraduate geoscience students to coding and data analysis using Python.
 
 ---
 
-## 🧭 About the Program
+**Course book:** https://cascadiaquakes.github.io/cores2code/
+
+---
+
+## About the Program
 
 **Cores to Code** is a three-week immersive summer experience hosted by CRESCENT (the Cascadia Region Earthquake Science Center). The program trains students in subduction zone science through:
 
@@ -17,7 +20,9 @@ Welcome to the **cores2code** repository, the digital companion for the final we
 
 ---
 
-## 👩‍💻 Week 3 Learning Objectives
+---
+
+## Week 3 Learning Objectives
 
 During this final week, students transition from physical samples to digital analysis. You'll gain experience in:
 
@@ -31,7 +36,9 @@ These skills help bridge traditional geoscience methods with modern computationa
 
 ---
 
-## 📁 Repository Structure
+---
+
+## Repository Structure
 
 ```bash
 cores2code/
@@ -50,7 +57,9 @@ cores2code/
 
 ---
 
-## 🚀 Getting Started
+---
+
+## Getting Started
 
 1. **Install Anaconda** (recommended):  
    [https://www.anaconda.com/products/distribution](https://www.anaconda.com/products/distribution)
@@ -70,7 +79,9 @@ cores2code/
 
 ---
 
-## 🧰 Tools You'll Use
+---
+
+## Tools You'll Use
 
 - **Python** – for scripting and analysis
 - **Jupyter Notebooks** – for interactive code + narrative
@@ -80,7 +91,9 @@ cores2code/
 
 ---
 
-## 🎓 Attribution & Support
+---
+
+## Attribution & Support
 
 This repository is maintained by instructors and TAs from the **CRESCENT** , with contributions from:
 - Cal Poly Humboldt
@@ -92,10 +105,35 @@ Contact your instructor or TA if you get stuck or want to go further!
 
 ---
 
-## 📢 Final Notes
+---
+
+## Final Notes
 
 This is not about becoming a software engineer—it's about learning how basic coding can help you be a better geoscientist. You'll be analyzing real data, automating repetitive tasks, and visualizing findings. Be curious, experiment, and don’t be afraid to break things (and then fix them)!
 
 Happy coding!
 
 — The C2C Teaching Team
+
+---
+
+## License
+
+This project is licensed under the BSD 3-Clause License. See [LICENSE](LICENSE).
+
+---
+
+## Acknowledgments
+
+<table>
+  <tr>
+    <td align="center" valign="middle">
+      <img src="https://raw.githubusercontent.com/cascadiaquakes/.github/main/assets/crescent-circle.png" alt="CRESCENT Logo" width="150" />
+    </td>
+    <td align="center" valign="middle">
+      <img src="https://raw.githubusercontent.com/cascadiaquakes/.github/main/assets/nsf-logo.png" alt="NSF Logo" width="450" />
+    </td>
+  </tr>
+</table>
+
+This project is supported by the National Science Foundation through the Cascadia Region Earthquake Science Center (CRESCENT), Cooperative Agreement EAR-2225286.
